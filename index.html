@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>기분탓</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans:400');
+		body{margin: 0px;overflow-x: hidden; font-family: 'Black Han Sans', sans-serif; background: url('background.png'); background-color: #00573a;background-size: 100%; overflow-y: hidden;}
+		header{height: 120px; background-color: #f4cd20;  border-bottom:solid 5px #000000; text-align: center; position:relative}
+		div{position:relative; height: 600px; width: 1400px; justify-content: right;}
+		.flex{display:flex;}
+		.item{position:absolute;height: auto;}
+		section{width: 1400px; margin: auto; text-align: center;}
+		h1{position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 40px; margin: auto; font-weight:normal; font-size: 2.5em;}
+
+		#img1{background-image: url('2.gif');}
+ 	* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+		 canvas {
+      display: block;
+    }
+	</style>
+
+</head>
+<body>
+<header>
+<h1>장애물을 피해 무사히 침대에 도착해보세요!</h1>
+</header>
+
+	<img src='1.png' class="item" style=" width: 100%; top:450px;">
+<section>
+
+	<div>
+	<!-- <h2 style="color:#f4cd20">침대까지 남은 거리:NNkm</h2> -->
+
+
+
+
+
+	<canvas class='item'id="game" style="width: 100%; height: auto ; bottom: 200px; left:0; right:0; margin:auto"></canvas>
+
+
+			<!-- <img src='2.png' class="item" style=" width: 25%; top:160px; left:130px"> -->
+			<!-- <img src='3.png' class="item" style=" width: 10%; right:140px; top:250px;"> -->
+
+			<a href="https://serena0412.github.io/21.12.08.main/" target_self>
+			<img src='back.png' class="item" style=" width: 15%; left: 0px;bottom:40px;z-index: 0;">
+			</a>
+	</div>
+
+</section>
+
+
+<script type="text/javascript">
+	
+	// window.onkeydown = (e) => console.log(e);
+</script>
+ <script src="main.js"></script>	
+
+</body>
+</html>
